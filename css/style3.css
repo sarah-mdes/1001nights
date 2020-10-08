@@ -1,0 +1,181 @@
+@charset "UTF-8";
+/* CSS Document */
+
+a:link { color:#FF3300; text-decoration: none}
+a:visited { color: #FF3300; text-decoration: none}
+a:hover { color:#66CC99; text-decoration: none}
+
+.i1{
+	position:absolute;
+	-moz-transform:scaleY(-1);
+	-webkit-transform:scaleY(-1);
+	left:307px;
+	top:110px;
+	
+}
+.i2{
+	position:absolute;
+	-moz-transform:scaleY(-1);
+	-webkit-transform:scaleY(-1);
+	left:434px;
+	top:110px;
+}
+.i3{
+	position:absolute;
+	-moz-transform:scaleY(-1);
+	-webkit-transform:scaleY(-1);
+	left:434px;
+	top:320px;
+}
+.i4{
+	position:absolute;	
+	left:307px;
+	top:320px;
+	-webkit-transition:All 3s ease;
+	-moz-transition:All 3s ease-out;
+	-o-transition:All 3s ease;
+}
+
+.i4:hover{
+	-moz-transform:translateY(-500px);
+}
+
+.i5{
+	position:absolute;
+	-moz-transform:scaleY(-1);
+	-webkit-transform:scaleY(-1);
+	left:307px;
+	top:530px;
+}
+.i6{
+	position:absolute;
+	left:181px;
+	top:530px;
+	-webkit-transition:All 3s ease;
+	-moz-transition:All 3s ease-out;
+	-o-transition:All 3s ease;
+}
+
+.i6:hover{
+	-moz-transform:translateX(-500px);
+}
+
+.i7{
+	position:absolute;
+	left:435px;
+	top:530px;
+	-webkit-transition:All 3s ease;
+	-moz-transition:All 3s ease-out;
+	-o-transition:All 3s ease;
+}
+
+.i7:hover{
+	-moz-transform:translateX(500px);
+}
+
+.i8{
+	position:absolute;
+	left:181px;
+	top:741px;
+	-webkit-transition:All 3s ease;
+	-moz-transition:All 3s ease-out;
+	-o-transition:All 3s ease;
+}
+
+.i8:hover{
+	-moz-transform:translateY(500px);
+}
+
+.right {
+	font-family: "Letter Gothic Std", Courier, monospace;
+	font-size:13px;
+	letter-spacing:0px;
+	line-height: 10px;
+	-moz-transform:rotate(-25deg);
+	-webkit-transform:rotate(-25deg);
+	position:absolute;
+	top:310px;
+	left:915px;
+	width:600px;
+	height:90px;
+	color:#BFBFBF;
+}
+
+.left {
+	font-family: "Letter Gothic Std", Courier, monospace;
+	font-size:16px;
+	letter-spacing:0px;
+	line-height: 15px;
+	-moz-transform:rotate(31deg);
+	-webkit-transform:rotate(31deg);
+	position:absolute;
+	text-align:right;
+	top:230px;
+	left:160px;
+	width:150px;
+	height:480px;
+	color:#BFBFBF;
+}
+
+a.roll1 {
+	position:absolute;
+	width:365px;
+	height:148px;
+	left:591px;
+	top:426px;
+	background-image:url(../img/rollover2.png);
+	z-index:2;
+}
+
+a.roll1:hover {
+	background-position: 365px, -1px;
+}
+a.roll2 {
+	position:absolute;
+	width:113px;
+	height:47px;
+	left:202px;
+	top:154px;
+	background-image:url(../img/rollover2.png);
+	z-index:2;
+	background-size:cover;
+}
+
+a.roll2:hover {
+	background-position: 115px, -1px;
+	background-size:cover;
+}
+
+a.title {
+	position:absolute;
+	font-family:"Helvetica", Trebuchet MS, Arial, sans-serif;
+	font-size:96px;
+	color:#4E4173;
+	top:850px;
+	left:-30px;
+	font-style:oblique;
+	letter-spacing:-10px;
+	font-weight:lighter;
+}
+
+a.title:hover {
+	font-size:200px;
+}
+		
+.genie {
+	position:absolute;
+	width: 183px;
+	height: 151px;
+	left: 334px;
+	top: 368px;
+	background-image:url(../img/genie-lamp.png);
+	background-position:center !important;
+	background-size:contain;
+	opacity:0.5;
+	filter:alpha(opacity=50);
+	z-index:-1;
+}
+.genie:hover {
+	opacity:0.30;
+	filter:alpha(opacity=30);
+}

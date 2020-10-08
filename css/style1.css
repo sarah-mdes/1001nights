@@ -1,0 +1,93 @@
+.a1 {
+	font-family:"Courier New", Courier, monospace;
+	line-height:20px;
+	letter-spacing: 0px;
+	font-size: 16px;
+	width: 484px;
+	height: 445px;
+	position: absolute;
+	left: 688px;
+	top: 309px;
+	color:#FFDFDF;
+	z-index:-1;
+}
+.i3{
+	width: 303px;
+	height:303px;
+	position:absolute;
+	top:272px;
+	left:380px;
+	-webkit-transition:All 3s ease;
+	-moz-transition:All 3s ease-out;
+	-o-transition:All 3s ease;
+}
+.i3:hover {
+	-webkit-transform: translate(0px, -500px);
+	-moz-transform: translate(0px, -500px);
+	
+}
+.genie {
+	position:absolute;
+	width: 183px;
+	height: 151px;
+	left: 445px;
+	top: 394px;
+	background-image:url(../img/genie-lamp.png);
+	background-position:center !important;
+	background-size:contain;
+	opacity:0.5;
+	filter:alpha(opacity=50);
+}
+.genie:hover {
+	opacity:0.30;
+	filter:alpha(opacity=30);
+}
+
+.a2 {
+	font-family: "Courier New", Courier, monospace;
+	line-height:60px;
+	letter-spacing: 10px;
+	font-size: 16px;
+	width: 2177px;
+	height: 1069px;
+	position:absolute;
+	left: 0px;
+	top: 32px;
+	color:#4C4C4C;
+	z-index:-2;
+}
+
+
+	
+.i4{
+	width: 505px;
+	height:auto;
+	position:absolute;
+	top:410px;
+	left:334px;
+	-moz-transform:scaleY(-1);
+	-webkit-transform:scaleY(-1);
+}
+
+a.slide1{
+	position:absolute;
+	top:650px;
+	left:4px;
+	background: url(../img/three.png);
+	width:706px;
+	height:236px;
+	opacity:.4;
+	filter:alpha(opacity=40); /* For IE8 and earlier */
+	z-index:3;
+}
+a.slide1:hover {
+	opacity:0.9;
+	filter:alpha(opacity=90); /* For IE8 and earlier */
+}
+
+a.link1 {color: #FFDFDF !important; text-decoration:none;}
+a.link1:active {color: #FFDFDF; text-decoration:none;}
+a.link1:hover {
+	color: #A6E2FF !important;
+	size:
+}

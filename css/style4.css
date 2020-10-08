@@ -1,0 +1,142 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+.b1 {
+	font-family:"Letter Gothic Std", Courier, monospace;
+	width: 356px;
+	height:1728px;
+	position: absolute;
+	top:-1px;
+	left:1118px;
+	overflow:visible;
+	letter-spacing:5px;
+	line-height:35px;
+	font-size:8px;
+	font-weight: bolder;
+}
+
+.b2 {
+	width:299px;
+	height:1993px;
+	font-family: "Letter Gothic Std", Courier, monospace;
+	position: absolute;
+	top: 0px;
+	left: 150px;
+	overflow:visible;
+	text-align:right;
+	letter-spacing:2px;
+	line-height:35px;
+	font-size:8px;
+	font-weight: bolder;
+}
+
+.i5 {
+	position:absolute;
+	width: 411px;
+	height:auto;
+	top:396px;
+	left:15px;
+	-moz-transform:scaleY(-1);
+	-webkit-transform:scaleY(-1);
+	z-index:-2;
+}
+	
+.i6 {
+	position:absolute;
+	width: 250px;
+	height:auto;
+	top:511px;
+	left:328px;
+	-moz-transform:scaleY(-1);
+	-webkit-transform:scaleY(-1);
+	z-index:-2;
+}
+
+.i7 {
+	position:absolute;
+	top: 435px;
+	left:604px;
+	width: 400px;
+	height: auto;
+	-webkit-transition:All 5s ease;
+	-moz-transition:All 5s ease-out;
+	-o-transition:All 5s ease;
+}
+.i7:hover {
+	-webkit-transform: translate(0px, -500px);
+	-moz-transform: translate(0px, -500px);
+}
+
+.i8 {
+	position:absolute;
+	width: 241px;
+	height:auto;
+	top:471px;
+	left:1011px;
+	-moz-transform:scaleY(-1);
+	-webkit-transform:scaleY(-1);
+	z-index:-2;
+}
+
+.i9 {
+	position:absolute;
+	width: 240px;
+	height:auto;
+	top:501px;
+	left:1296px;
+	z-index:-2;
+		-webkit-transition:All 3s ease;
+	-moz-transition:All 3s ease-out;
+	-o-transition:All 3s ease;
+}
+.i9:hover {
+	-webkit-transform: translate(0px, 500px);
+	-moz-transform: translate(0px, 500px);	
+}
+
+a.hd1 {
+	font-family:"Helvetica Bold", Arial, Helvetica, sans-serif;
+	font-size:29px;
+	letter-spacing:30px;
+	color:#FF3300;
+	position:absolute;
+	top:215px;
+	left:15px;
+	font-style:normal;
+}
+
+a.hd2 {
+	font-family:"Helvetica Bold", Arial, Helvetica, sans-serif;
+	font-size:48px;
+	letter-spacing:15px;
+	color:#FF3300;
+	position:absolute;
+	top:1030px;
+	left:859px;
+	font-style:normal;
+	width: 1285px;
+	height: 63px;
+}
+a:link { color:#FF3300; text-decoration: none}
+a:visited { color: #FF3300; text-decoration: none}
+a:hover { color:#66CC99; text-decoration: none}
+
+.genie {
+	position:absolute;
+	width: 249px;
+	height: 219px;
+	left: 677px;
+	top: 557px;
+	background-image:url(../img/genie-lamp.png);
+	background-position:center !important;
+	background-size:contain;
+	opacity:0.9;
+	filter:alpha(opacity=90);
+	background-repeat:no-repeat;
+	z-index:-2;
+}
+.genie:hover {
+	opacity:0.30;
+	filter:alpha(opacity=30);
+}

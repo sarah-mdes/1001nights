@@ -1,0 +1,237 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#text1 {
+	position:absolute;
+	font-family: "Letter Gothic Std", Courier, monospace;
+	font-size:28px;
+	letter-spacing:0px;
+	color:#70AC9F;
+//	font-weight:100px;
+	line-height:10px;
+	width: 500px;
+	height:500px;
+	text-align:justify;
+	z-index:1;
+}
+#text3 {
+	position:relative;
+	font-family: "Letter Gothic Std", Courier, monospace;
+	font-size:28px;
+	letter-spacing:0px;
+	color:#1A939D;
+//	font-weight:100px;
+	line-height:10px;
+	width: 500px;
+	height:500px;
+	text-align:justify;
+	top:440px;
+}	
+#text4 {
+	position:relative;
+	font-family: "Letter Gothic Std", Courier, monospace;
+	font-size:28px;
+	letter-spacing:0px;
+	color:#70AC9F;
+//	font-weight:100px;
+	line-height:10px;
+	width: 500px;
+	height:500px;
+	text-align:justify;
+	top:-150px;
+	left:2px;
+}
+#text2 {
+	position:absolute;
+	font-family: "Letter Gothic Std", Courier, monospace;
+	font-size:28px;
+	letter-spacing:0px;
+	color:#1A939D;
+//	font-weight:100px;
+	line-height:10px;
+	width: 500px;
+	height:500px;
+	text-align:justify;
+	top:10px;
+	left:2px;
+}
+
+.slant {
+	position:absolute;
+	-moz-transform:rotate(30deg);
+	-webkit-transform:rotate(30deg);
+	top:-410px;
+	left:-200px;
+	
+}
+
+#i1 {
+	position:absolute;
+	-moz-transform:scaleY(-1);
+	-webkit-transform:scaleY(-1);
+	width: 409px;
+	height:auto;
+	left: 485px;
+	top: 1px;
+}
+
+
+#i2 {
+	position:absolute;
+	width: 409px;
+	height:auto;
+	left: 277px;
+	top: 0px;
+}
+
+#i3 {
+	position:absolute;
+	-moz-transform:scaleY(-1);
+	-webkit-transform:scaleY(-1);
+	width: 409px;
+	height:auto;
+	left: 277px;
+	top: 357px;
+}
+
+#i4 {
+	position:absolute;
+	width: 409px;
+	height:auto;
+	left: 69px;
+	top: 357px;
+	-webkit-transition:All 5s ease;
+	-moz-transition:All 5s ease-out;
+	-o-transition:All 5s ease;
+}
+#i4:hover{
+	-webkit-transform: translate(0, -550px);
+	-moz-transform: translate(0, -550px);
+}
+
+#i5 {
+	position:absolute;
+	-moz-transform:scaleY(-1);
+	-webkit-transform:scaleY(-1);
+	width: 409px;
+	height:auto;
+	left: 70px;
+	top: 713px;
+}
+
+#i6 {
+	position:absolute;
+	-moz-transform:scaleY(-1);
+	-webkit-transform:scaleY(-1);
+	width: 409px;
+	height:auto;
+	left: -138px;
+	top: 713px;
+}
+#i7 {
+	position:absolute;
+	width: 409px;
+	height:auto;
+	left: -139px;
+	top: 1070px;
+		-webkit-transition:All 5s ease;
+	-moz-transition:All 5s ease-out;
+	-o-transition:All 5s ease;
+}
+#i7:hover{
+	-webkit-transform: translate(0, 550px);
+	-moz-transform: translate(0, 550px);
+}
+
+.triangles {
+	position:absolute;
+	top:-2px;
+	left: 100px;
+}
+
+.four {
+	position:absolute;
+	font-family: "Letter Gothic Std", Courier, monospace;
+	font-size:17px;
+	letter-spacing:0px;
+	color:#70AC9F;
+	font-weight:100px;
+	line-height:20px;
+	width: 350px;
+	height:1279px;
+	text-align:right;
+	top:3px;
+	left:950px;
+	overflow:visible;	
+	}
+	
+.three {
+	position:absolute;
+	font-family: "Helvetica", Arial, Helvetica, sans-serif;
+	font-size:9px;
+	letter-spacing:1px;
+	color:#FF8C00;
+	font-weight:100px;
+	line-height:30px;
+	width: 150px;
+	height:800px;
+	text-align:center;
+	top:300px;
+	left:750px;
+	overflow:visible;
+	z-index:-1;	
+	}
+.two {
+	position:absolute;
+	font-family: "Helvetica", Arial, Helvetica, sans-serif;
+	font-size:9px;
+	letter-spacing:1px;
+	color:#C0BFC3;
+	font-weight:100px;
+	line-height:30px;
+	width: 150px;
+	height:800px;
+	text-align:center;
+	top:600px;
+	left:550px;
+	overflow:visible;
+	z-index:-1;	
+	}
+.one {
+	position:absolute;
+	font-family: "Helvetica", Arial, Helvetica, sans-serif;
+	font-size:9px;
+	letter-spacing:1px;
+	color:#D6D69D;
+	font-weight:100px;
+	line-height:30px;
+	width: 150px;
+	height:800px;
+	text-align:center;
+	top:600px;
+	left:350px;
+	overflow:visible;
+	z-index:-1;	
+	}
+	
+a:link { color:#FF3300; text-decoration: none}
+a:visited { color: #FF3300; text-decoration: none}
+a:hover { color:#66CC99; text-decoration: none; text-shadow:#FF9900;}
+
+.genie1 {
+	position:absolute;
+	width: 183px;
+	height: 151px;
+	left: 280px;
+	top: 532px;
+	background-image:url(../img/genie-lamp.png);
+	background-position:center !important;
+	background-size:contain;
+	opacity:0.5;
+	filter:alpha(opacity=50);
+	z-index:-1;
+}
+.genie1:hover {
+	opacity:0.30;
+	filter:alpha(opacity=30);
+}
