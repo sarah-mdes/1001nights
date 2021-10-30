@@ -1,2 +1,2 @@
 # 1001nights
-view live here: https://sarahmariam.github.io/starthief/star-thief.html
+view live here: https://sarahmariam.github.io/1001nights/
